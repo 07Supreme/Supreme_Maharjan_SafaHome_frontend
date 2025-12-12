@@ -4,6 +4,7 @@ import axios from "axios";
 import backgroundImage from "../Auth/Assets/clean.jpeg";
 import "./UserHome.css";
 
+//userhome function
 function UserHome() {
   const navigate = useNavigate();
   const [user, setUser] = useState(null);
